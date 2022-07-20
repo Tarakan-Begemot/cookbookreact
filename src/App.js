@@ -7,12 +7,12 @@ import menu from './menu.js';
 import { GiChefToque } from 'react-icons/gi';
 import { IconContext } from 'react-icons';
 import { Route, Routes, Link } from 'react-router-dom';
-import UseContentful from './useContentful';
+import useContentful from './useContentful';
 import Receipe from './Receipe';
 import NoMatch from './NoMatch';
 
 const App = () => {
-  const { getTitles } = UseContentful();
+  const { getTitles } = useContentful();
   const allThrouseLocalStorage = JSON.parse(localStorage.getItem('titles'));
 
   useEffect(() => {
@@ -29,15 +29,21 @@ const App = () => {
             <GiChefToque />
           </div>
         </IconContext.Provider>
-        <Link to="/" className="d-inline my-auto style-none" style={{ textDecoration: 'none' }}>
+        <Link
+          to="/cookbookreact"
+          className="d-inline my-auto style-none"
+          style={{ textDecoration: 'none' }}>
           <h1>CookBook</h1>
         </Link>
       </div>
       <Routes>
-        <Route path="/" element={<MainMenu />} />
+        <Route path="/cookbookreact" element={<MainMenu />} />
 
-        <Route path="/soups" element={<SomeDish prop={allThrouseLocalStorage} />} />
-        <Route path="/soups/:title" element={<Receipe recipe={allThrouseLocalStorage} />} />
+        <Route path="/cookbookreact/soups" element={<SomeDish prop={allThrouseLocalStorage} />} />
+        <Route
+          path="/cookbookreact/soups/:title"
+          element={<Receipe recipe={allThrouseLocalStorage} />}
+        />
         <Route path="*" element={<NoMatch />} />
       </Routes>
       <div>
