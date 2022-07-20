@@ -68,8 +68,17 @@ You can clone and start a project on your device by simply putting this link to 
 
   ```sh
   git clone https://github.com/Tarakan-Begemot/cookbookreact.git
+  ```
+  then
+  ```sh
   cd cookbookreact
+  ```
+  after
+  ```sh
   npm install
+  ```
+  and finally 
+  ```sh
   npm start
   ```
 
