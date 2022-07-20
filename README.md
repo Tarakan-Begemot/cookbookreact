@@ -6,9 +6,7 @@
   <a href="https://tarakan-begemot.github.io/cookbookreact/">
     <img src="https://media.istockphoto.com/vectors/baker-kitchener-or-chef-cook-hat-isolated-sketch-vector-id1206574461?b=1&k=20&m=1206574461&s=170667a&w=0&h=G-ehizW-TlE8ciXRMng2vCZFvsH-_xNiZ48-Hbx-OqY=" alt="Logo" width="120" height="120">
   </a>
-
 <h1 align="center">Cookbook React</h1>
-
   <p align="center">
     <br />
     <a href="https://tarakan-begemot.github.io/cookbookreact/">Live Demo</a>
@@ -39,12 +37,12 @@ Refactoring a static multipage website with culinary recipes into a dynamic one-
 <br/><br/>
 
 
-### Built With
+## Built With
 
 * [![React][React.js]][React-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 * [![Contentful][Contentful.com]][Contentful-url]
-
+ <br />
 
 
 
@@ -59,10 +57,10 @@ Refactoring a static multipage website with culinary recipes into a dynamic one-
 <li>creating application navigation using the `react-router-dom` package</li>
 <li>assembling the project from the completed tasks of all participants</li>
 </ul>
+ <br />
 
-
-
-### Downloading/Cloning
+<!-- Downloading/Cloning -->
+## Downloading/Cloning
 
 You can clone and start a project on your device by simply putting this link to your terminal
 
@@ -81,7 +79,7 @@ You can clone and start a project on your device by simply putting this link to 
   ```sh
   npm start
   ```
-
+ <br />
 
 <!-- Developers -->
 ## Developers
